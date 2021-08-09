@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>sacolinhas</title>
+
+    <!-- IE -->
+    <link rel="shortcut icon" type="image/png" href="images/farm2.png" />
+
+    <!-- OUTROS NAVEGADORES -->
+    <link rel="icon" type="image/png" href="images/farm2.png" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+
+            <!-- BARRA INICIAL -->
+
+            <div class="row barra-verde">
+                <div class="col-9 col-sm-9 col-md-10 col-lg-11 custom-col-head">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide-1" data-bs-ride="carousel">
+                        <div class="carousel-inner slides">
+                            <div class="carousel-item active">
+                                <p>parcelamento em até <b>10x sem juros</b></p>
+                            </div>
+                            <div class="carousel-item">
+                                <p><b>provador em casa</b></p>
+                            </div>
+                            <div class="carousel-item">
+                                <p><b>frete gratis</b> com código da revendedora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-3 col-sm-3 col-md-2 col-lg-1 custom-col-head d-flex justify-content-end justify-content-between">
+                    <a class="ver-regras" href="#link1" id="link1">ver
+                        regras</a>
+
+                    <a class="botao-fechar" href="#link2" id="link2"><i class="bi bi-x-lg fechar"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- MENU -->
+        <div class="row menu-inicial fixed-top">
+
+            <!-- offcanvas -->
+
+            <div class="col-4">
+
+                <button class="btn menu-de-tres-linhas" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="./images/menu-de-tres-linhas.png" width="24">
+                </button>
+
+                <div class="offcanvas offcanvas-start container-canvas offcanvas1" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+
+                    <div class="offcanvas-body">
+                        <div>
+                            <img src="./images/imagem-canvas.jpg" width="270" height="130" />
+                        </div>
+                        <div class="texto-off">
+                            <h2 class="texto-off-conta">já tem conta?</h2>
+                            <h5 class="texto-off-descricao">acompanhe seus pedidos, favorite seus produtos preferidos,
+                                gerencie seus cartões e muito
+                                mais!</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <button id="botao-enviar" type="submit">entrar / cadastrar</button>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion" id="accordionExample">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne1" aria-expanded="true"
+                                        aria-controls="collapseOne1">
+                                        novidades
+                                    </button>
+                                </h2>
+                                <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        ver tudo >
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        tá na vitrine
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        mais vendidos
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        roupas
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <ul>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        ver tudo >
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        vestido
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        blusa
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        acessórios
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        ver tudo >
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        sacolinhas
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        garrafas
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        parcerias
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <ul>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        fábula
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        havainas
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        pantys
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        linhas
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <ul>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        quero
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        farm com eles
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#link" id="link">
+                                                    <span>
+                                                        me leva
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- fim canvas -->
+
+            <!-- logo -->
+
+            <div class="col-4 d-flex justify-content-center logo">
+                <a href="">
+                    <img src="./images/logo.svg " width="92" height="20" />
+                </a>
+            </div>
+
+            <!-- busca e mochila -->
+
+            <div class="col-4 d-flex  justify-content-end">
+                <a class="botao-busca" href=""><img src="./images/search.png" width="24" /></a>
+
+                <button class="btn botao-lupa" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><img src="./images/backpack.png" width="24" /></button>
+
+                <div class="offcanvas offcanvas-end offcanvas2" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+
+                    <div class="offcanvas-body">
+
+                        <div class="row offcanvas-mochila">
+                            <div class="col-3 d-flex justify-content-start">
+                                <img src="./images/backpack.png" width="24" height="24" />
+                            </div>
+
+                            <div class="col-9 d-flex justify-content-end ">
+                                <span class="inicio-canvas-mochila">minha conta | meus pedidos</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
+                                <span class="mochila-vazia">
+                                    sua mochila está vazia
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
+                                <button id="botao-enviar" type="submit">escolher produtos</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+    </header>
+
+    <!-- CARROSSEL -->
+
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel-2.jpg" class="d-block w-100" alt="Modelo mulher vestindo Farm.">
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel-1.jpg" class="d-block w-100" alt="Modelo mulher com fundo de céu.">
+            </div>
+        </div>
+
+    </div>
+    <!-- FIM CARROSSEL -->
+
+    <div class="accordion" id="accordionExample">
+
+        <div class="accordion-item primeiro-accordion">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <span class="acessorios-produtos">acessórios</span>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <span class="acessorios-descricao"> pra deixar a sua produção ainda mais completa: <b>acessórios
+                            cheios de borogodó.</b> na FARM você
+                        encontra diferentes opções que vão desde <b>mochilas femininas</b> e <b>pochetes</b>, até
+                        <b>bolsas e bijoux</b> que
+                        vão deixar seus looks ainda mais repletos de <b>personalidade.</b> vem conhecer os modelos
+                        disponíveis
+                        e garantir o seu <b>xodó!</b></span>
+                    <span class="breadcrumbs1">
+                        <a class="bread-links" href="">BOLSAS</a> | <a class="bread-links" href="">MOCHILAS</a> | <a
+                            class="bread-links" href="">CALÇADOS</a> | <a class="bread-links" href="">VESTIDOS</a>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row linha-menu">
+            <div class="col-12 categoria d-flex justify-content-around pb-2">
+                <span>
+                    <a href="" class="links-menu">CATEGORIA</a>
+                </span>
+                <span>
+                    <a href="" class="links-menu">FILTRAR</a>
+                </span>
+                <span>
+                    <a href="" class="links-menu">ORDENAR</a>
+                </span>
+            </div>
+        </div>
+
+        <div class="row linha-menu">
+            <div class="col-12 bread-links-container py-2 mb-3">
+                <span class="b-l">
+                    <a class="bread-links-2" href="">home</a> > <a class="bread-links-2" href="">moda feminina</a> > <a
+                        class="bread-links-2" href="">acessórios</a> > <a class="bread-links-2" href=""><b>sacolinhas (6
+                            produtos)</b></a>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <!-- PRODUTOS -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="./images/sacolinha-onça.jpg" class="img-fluid" alt="Foto da sacolinha de onça." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha onça</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img src="./images/sacolinha-coco.jpg" class="img-fluid" alt="Foto da sacolinha de coco." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha coco</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="./images/sacolinha-caju.jpg" class="img-fluid" alt="Foto da sacolinha de caju." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha caju</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img src="./images/sacolinha-folha.jpg" class="img-fluid" alt="Foto da sacolinha de folha." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha folha</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="./images/sacolinha-abacaxi.jpg" class="img-fluid" alt="Foto da sacolinha de abacaxi." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha abacaxi</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img src="./images/sacolinha-melancia.jpg" class="img-fluid" alt="Foto da sacolinha de melancia." />
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="nome-produto">sacolinha melancia</span><br>
+                        <span class="preco-produto">R$ 49,00</span><br>
+                        <span class="parcelamento-preco">ou 4x de R$ 12,25</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FIM PRODUTOS -->
+
+    <!-- INICIO FOOTER -->
+
+    <footer>
+
+        <!-- CADASTRE-SE -->
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-12">
+                    <span class="cadastre-se">
+                        cadastre-se
+                    </span>
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <span class="descricao-cadastro">
+                                fique por dentro do que rola aqui e ganhe <b>30% de desconto</b> na primeira compra.
+                                para mais informações <a class="clique-aqui" href="#link3" id="link3">clique
+                                    aqui.</a>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form>
+                <div class="row gy-4 pt-4">
+                    <div class="col-12">
+                        <input type="text" class="formulario" name="nome" placeholder="seu nome" required />
+                    </div>
+
+                    <div class="col-12 pb-2">
+                        <input type="email" class="formulario" name="email" placeholder="seu e-mail" required />
+                    </div>
+
+                    <div class="col-12">
+                        <button id="botao-enviar" type="submit">enviar</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 redes-sociais d-flex  ">
+                        <a class="link-redes" href="#link" 4 id="link4"><img src="images/facebook.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                        <a class="link-redes" href="#link4" id="link4"><img src="images/instagram.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                        <a class="link-redes" href="#link4" id="link4"><img src="images/twitter.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                        <a class="link-redes" href="#link4" id="link4"><img src="images/pinterest.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                        <a class="link-redes" href="#link4" id="link4"><img src="images/youtube.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                        <a class="link-redes" href="#link4" id="link4"><img src="images/spotify.png"
+                                class="imagens-tamanho" alt="ícone facebook" /></a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- LISTA DE INFORMAÇÕES -->
+
+        <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        INSTITUCIONAL
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        a FARM
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        trabalhe aqui
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        grupo soma
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        multimarcas
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        MINHA CONTA
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <ul>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        minha conta
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        meus desejos
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        meu clube farm
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        FALA FARM
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        falar via whatsapp
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        PRECISA DE AJUDA?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <ul>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        ver tudo
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        meus pedidos
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        trocas e devoluções
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        entrega
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        promoções e cupons
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        produtos
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        regulamento de promo
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        políticas
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        aviso de privacidade
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        SUSTENTABILIDADE
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <ul>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        circularidade
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        gente
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        cultura
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        natureza
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        transparência
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        re-FARM
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        fornecedores
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#link" id="link">
+                                    <span>
+                                        canal de ética
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- APPLE STORE E GOOGLE PLAY -->
+
+            <div class="container">
+                <div class="row download-store">
+
+                    <div class="col-6 d-flex align-itens-center justify-content-evenly">
+
+                        <button type="button" class="btn btn-dark botao-download">
+                            <a class="link-apple" href="https://apps.apple.com/br/app/farm/id1545434715"
+                                target="_blank">
+                                <div class="conteudo-botao">
+                                    <div class="imagem-botao"> <img src="./images/logotipo-da-apple.png" width="25px"
+                                            height="25px" /></div>
+                                    <div class="texto-botao">
+                                        <span class="linha1">Baixar na</span><br>
+                                        <span class="linha2">App Store</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </button>
+
+                    </div>
+
+                    <div class="col-6 d-flex align-itens-center justify-content-evenly">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.farmrio.app" target="_blank">
+                            <button type="button" class="btn btn-dark botao-download">
+                                <div class="conteudo-botao">
+                                    <div class="imagem-botao"> <img src="./images/google-play.png" width="25px"
+                                            height="25px" /></div>
+                                    <div class="texto-botao">
+                                        <span class="linha1">DISPONÍVEL NO</span><br>
+                                        <span class="linha2">Google Play</span>
+                                    </div>
+
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ENDEREÇO FINAL -->
+
+        <div class="endereco">
+            <span class=endereco-descricao>
+                Grupo de Moda SOMA S.A.<br>
+                Av. Coronel Phidias Tavora 360, Blc 1 armazém 1,<br>
+                Pavuna, RJ - CNPJ: 10.285.590/0002-80<br>
+            </span>
+        </div>
+
+        <!-- botao fixed -->
+        <div class="teste" id="ajuda">
+            <a href="#ajuda" class="ajuda"><span class="texto-ajuda">ajuda?</span></a>
+        </div>
+        
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

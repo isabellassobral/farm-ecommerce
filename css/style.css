@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+
+.custom-col-head {
+    background-color: rgb(78, 114, 12);
+    color: white;
+}
+
+.slides{
+    margin-top: -16px;
+    font-size: 13px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+.slide-1{
+    margin-top: 30px;
+}
+
+.barra-verde {
+    margin-top: 50px;
+}
+
+.botao-fechar, .ver-regras {
+    color: white;
+    font-weight: bold;
+    margin-top: 14px;
+    font-size: 13px;
+} 
+
+.botao-fechar:hover, .ver-regras:hover {
+    color: white;
+}
+
+/* MENU */
+.menu-inicial {
+    background-color: rgba(255,255,255,0.4) !important;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%);
+    padding-bottom: 05px;
+}
+
+/* offcanvas 3 linhas*/
+
+.offcanvas1 {
+    width: 320px;
+}
+
+.menu-de-tres-linhas {
+    margin-top: 5px;
+}
+
+.texto-off{
+    margin-top: 60px;
+    color:#8D6742;
+}
+
+.texto-off-conta {
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.texto-off-descricao {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+/* logo */
+.logo{
+    margin-top: 10px;
+}
+
+/* busca */
+
+.botao-busca{
+    padding-top: 10px;
+ }
+
+.offcanvas-mochila{
+    border-bottom: solid 1px black;
+    padding-bottom: 15px;
+}
+
+ /* mochila */
+
+ .offcanvas2{
+     width: 900px;
+ }
+
+.inicio-canvas-mochila{
+    color: #8d6742;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.mochila-vazia{
+    color: #8d6742;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+/* MENU COM BREADCRUMBS */
+
+.acessorios-produtos{
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.acessorios-descricao {
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.breadcrumbs1{
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bread-links, .bread-links:hover, .links-menu, .links-menu:hover, .b-l, .bread-links-2, .bread-links-2:hover{
+    color: #8D6742;
+}
+
+.links-menu, .bread-links-2{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.categoria, .bread-links-container{
+    border-bottom: solid 1px #8D6742;
+}
+
+
+.linha-menu{
+    margin: 0px;
+}
+
+
+
+/* LISTA DE PRODUTOS */
+
+.nome-produto, .parcelamento-preco, .preco-produto {
+    color: #8D6742;
+    display: block;
+}
+
+.nome-produto {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.preco-produto {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 09px;
+    margin-top: -15px;
+}
+
+.parcelamento-preco{
+
+    font-size: 11px;
+    font-weight: 1000;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* CADASTRE-SE */
+
+.cadastre-se, .descricao-cadastro {
+    color:#8D6742;
+    display: block;
+
+}
+
+.cadastre-se {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.descricao-cadastro {
+    font-size: 15px;
+}
+
+.clique-aqui, .clique-aqui:hover {
+    color:#8D6742;
+}
+
+.formulario {
+    display: block;
+    width: 100%;
+    border: 1px solid #8D6742;
+    font-size: 16px;
+    height: 40px;
+    font-weight: bold;
+    color: #8D6742;
+    padding: 05px 10px;
+    outline: none;
+    
+}
+
+input::placeholder {
+    color: #ccb8a6;
+}
+
+#botao-enviar {
+    width: 100%;
+    height: 40px;
+    background-color: #7c5a38;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link-redes {
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens-tamanho {
+    width: 20px;
+    height: 20px;
+}
+
+/* LISTA DE INFORMAÇÕES */
+
+.accordion-item {
+    border: 1px solid #cbbcb1;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    outline: none;
+    color: #7c5a38;
+    margin-bottom: 10px;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: #7c5a38;
+    background-color: white;
+    box-shadow: white;
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+   border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 0rem white;
+}
+
+
+.accordion-button {
+    color: #8d6742;
+    font-size: 13.33px;
+    font-weight: bolder;
+    padding-left: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#link {
+    color: #8d6742;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+
+/* APPLE STORE E GOOGLE PLAY */
+
+.download-store{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.botao-download {
+    width: 135px;
+    height: 40px;
+}
+
+.conteudo-botao {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: start;
+    margin-left: 30px;
+}
+
+.imagem-botao, .texto-botao {
+    display: inline-block;
+}
+
+.imagem-botao {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 1px;
+}
+
+.linha2{
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link-apple, .link-apple:hover{
+    color: white;
+}
+
+ /* ENDEREÇO FINAL  */
+
+ .endereco {
+     display: block;
+     border-top: solid 1px #cbbcb1;
+     text-align: center;
+     line-height: 13px;
+     padding: 10px;
+     margin-bottom: 10px;
+ }
+
+ .endereco-descricao{
+     color: #8d6742;
+     font-size: 11px;
+     font-weight: 900;
+ }
+
+
+ /* ajuste do primeiro acordion antes da lista de produtos */
+ .primeiro-accordion{
+    border: 1px solid #8D6742;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+ }
+
+ .teste{
+    position: fixed;
+    right: 10px;
+    bottom: 35px;
+    z-index: 2;
+    display: block;
+ }
+ .ajuda{
+     text-decoration: none;
+     display: block;
+ }
+
+ .texto-ajuda{
+     color: #8d6742;
+     font-size: 14px;
+     font-weight: 900;
+     padding: 8px 28px;
+     background-color: #F4F1EC;
+     letter-spacing: 1px;
+
+ }
+
