@@ -85,12 +85,12 @@ body {
     padding-top: 10px;
  }
 
-.offcanvas-mochila{
+
+ /* mochila */
+ .offcanvas-mochila{
     border-bottom: solid 1px black;
     padding-bottom: 15px;
 }
-
- /* mochila */
 
  .offcanvas2{
      width: 900px;
@@ -390,6 +390,26 @@ ul {
      padding: 8px 28px;
      background-color: #F4F1EC;
      letter-spacing: 1px;
-
  }
+
+ /* ajuste off canvas mochila */
+
+ @media (max-width:360px){
+    .offcanvas2{
+        width: 200px;
+    }
+ }
+
+ @media (min-width:360px) and (max-width: 600px){
+    .offcanvas2{
+        width: 300px;
+    }
+ }
+
+ @media (min-width: 600px) and (max-width: 900px){
+    .offcanvas2{
+        width: 500px;
+    }
+ }
+
 
